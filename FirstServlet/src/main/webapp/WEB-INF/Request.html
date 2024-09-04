@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<script>
+function Validation(){
+	var pat = /[0-9]/;
+	if(pat.test(f1.input1.value)&& pat.test(f1.input2.value))
+		return true;
+	else{
+		alert("enter only number");
+		return false;
+	}
+}
+</script>
+<body>
+<a href = "servlet">click</a>
+<form name = "f1" action = "Class" method="get">
+<input type ="text" name="studName"/>
+<input type ="text" name="input1"/>
+<input type ="text" name="input2"/>
+<input type ="submit">
+</form>
+</body>
+</html>
